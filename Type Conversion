@@ -1,0 +1,21 @@
+#Type Conversion
+
+#String to Integer
+
+num_str = "100" # string
+num_int = int(num_str) # convert to integer     
+print("String to Integer:", num_int, "Type:", type(num_int))
+
+Example_1:
+
+str_value=str(input("Enter a number in string format: "))
+converted_value=int(str_value)
+print("Converted String to Integer:", converted_value, type(converted_value))
+
+#Example_2:
+
+str_input=str(input("Enter a number in string format: "))
+converted_str=int(str_input)
+int_input=int(input("Enter an integer to add: "))
+sum_result= converted_str + int_input
+print("Sum of", converted_str, "and", int_input, "is:", sum_result)

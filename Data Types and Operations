@@ -1,0 +1,98 @@
+# Data Types and Operations
+
+# Arithmetic Operations
+
+first_num = float(input("Enter first number: "))
+second_num = float(input("Enter second number:"))
+operator = input("Enter an operator (+, -, *, /, //, %, **): ")
+if operator == "+":
+    result = first_num + second_num
+    print("Addition:", result)
+elif operator == "-":
+    result = first_num - second_num
+    print("Subtraction: ", result)
+elif operator == "*":
+    result = first_num * second_num
+    print("Multiplication: ", result)
+elif operator == "/":
+    result = first_num / second_num
+    print("Division: ", result)
+elif operator == "//":
+    result = first_num // second_num
+    print("Floor Division: ", result)
+elif operator == "%":
+    result = first_num % second_num
+    print("Modulus: ", result)
+elif operator == "**":
+    result = first_num ** second_num
+    print("Exponentiation: ", result)
+else:
+    print("Invalid operator!")
+
+
+
+#Relational Operations
+first_value = float(input("Enter first value: "))
+second_value = float(input("Enter second value: "))
+rel_operator = input(print("Enter the relational operator(==, !=, >, <, >=, <=): "))
+if rel_operator == "==":
+    print("Is first value equal to second value?", first_value == second_value)
+elif rel_operator == "!=":
+    print("Is first value not equal to second value?", first_value != second_value)
+elif rel_operator == ">":
+    print("Is first value greater than second value?", first_value > second_value)
+elif rel_operator == "<":
+    print("Is first value less than second value?", first_value < second_value)
+elif rel_operator == ">=":
+    print("Is first value greater than or equal to second value?", first_value >= second_value)
+elif rel_operator == "<=":
+    print("Is first value less than or equal to second value?", first_value <= second_value)
+else:
+    print("Invalid relational operator!")
+
+
+
+
+
+
+# Assignment Operations
+first_value = float(input("Enter value of first variable: "))
+second_value = float(input("Enter value of second variable: "))
+assignment_operator = input("Enter assignment operator(=, +=, -=, *=, /=): ")
+if assignment_operator == "=":
+    first_value = second_value
+    print("After assignment, first_value =", first_value)
+elif assignment_operator == "+=":
+    first_value += second_value
+    print("After += operation, first_value =", first_value)
+elif assignment_operator == "-=":
+    first_value -= second_value
+    print("After -= operation, first_value =", first_value)
+elif assignment_operator == "*=":
+    first_value *= second_value
+    print("After *= operation, first_value =", first_value)
+elif assignment_operator == "/=":
+    first_value /= second_value
+    print("After /= operation, first_value =", first_value)
+else:
+    print("Invalid assignment operator!")
+
+
+
+# Logical Operations
+
+value = float(input("Enter a value: "))
+range_one = float(input("Enter the start of the range: "))
+range_two = float(input("Enter the end of the range: "))
+logical_operator = input("Enter logical operator (AND, OR, NOT): ")
+if logical_operator.upper() == "AND":
+    result = (value > range_one) and (value < range_two)
+    print("Is first value within the range?", result)
+elif logical_operator.upper() == "OR":
+    result = (value < range_one) or (value > range_two)
+    print("Is first value outside the range?", result)
+elif logical_operator.upper() == "NOT":
+    result = not (value > range_one and value < range_two)
+    print("Is first value NOT within the range?", result)
+else:
+    print("Invalid logical operator!")

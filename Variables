@@ -1,0 +1,34 @@
+#Variables
+name = "Srobon" #string
+age = 26 #int
+height = 5.9 #float
+is_student = True #boolean
+income = None #NoneType
+
+#Printing variable values
+print("Name:", name)
+print("Age:", age) 
+print("Height:", height)
+print("Is student:", is_student)
+print("Income:", income)
+
+#Variable Types
+print("Type of name variable:", type(name))
+print("Type of age variable:", type(age))
+print("Type of height variable:", type(height))
+print("Type of is_student variable:", type(is_student))
+print("Type of Income variable:", type(income))
+
+
+# Sum of two variables
+
+first_num=float(input("Enter the value of first number: "))
+second_num=float(input("Enter the value of the second number: "))
+sum= first_num + second_num
+print("Sum of", first_num, "and", second_num, "is", sum)
+
+#Difference of two variables
+first_num=float(input("Enter first number: "))
+second_num=float(input("Enter second number: "))
+diff = first_num - second_num
+print("Difference between", first_num, "and", second_num, "is", diff)

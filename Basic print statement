@@ -1,0 +1,6 @@
+print("Hello, World!") #Basic print statement
+print("Hello! I am Srobon.","This is my first Python program.") #Using comma to separate different items
+print("I am excited to learn Python programming!") 
+print("Contact Me : ", 8327426288) 
+print("Email : ", "srobonchakraborty@gmail.com")
+print("Sum of 5 and 10 is :", 5 + 10) #Performing addition inside print statement

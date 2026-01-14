@@ -1,0 +1,11 @@
+#Nested If-Else
+#Write a program to input a number from the user and check whether the number is positive, negative, or zero.
+number = float(input("Enter a number: "))
+if(number >= 0):
+    if(number == 0):
+        print("The number is zero")
+    else:
+        print("The number is positive") 
+else:
+    print("The number is negative")
+#End of Nested If-Else

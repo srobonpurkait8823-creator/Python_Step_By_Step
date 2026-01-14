@@ -1,0 +1,63 @@
+#Conditional Statements
+
+
+#Write a program to input age from the user and print whether the user is an adult or a minor. (Consider age >= 18 as adult)
+age = int(input("Enter your age: "))
+if(age >= 18):
+  print("You are an adult")
+else:
+  print("You are a minor")
+#End
+
+
+
+# #Write a program to input two integers from the user and print whether the first number is greater than, or equal to the second number. Print False otherwise.
+
+num_one = float(input("Enter the first number: "))
+num_two = float(input("Enter the dsecond number: "))
+if(num_one > num_two):
+  print("Yes, the first number is greater than the second number.")
+elif(num_one == num_two):
+  print("The first number is equal to the second number.")
+else:
+    print("No, the first number is lesser than the second number")
+#End
+
+
+
+
+# #Write a Python program to take two inputs from user(num1 and mu,2) and perform Addition, Subtraction, Multiplication and Division.
+
+num_one = float(input("Enter the first number: "))
+num_two = float(input("Enter the second number: "))
+operator = input("Enter the operator: ")
+
+if (operator == "+"):
+  print("Addition: ", num_one + num_two)
+elif(operator == "-"):
+  print("Subtraction: ", num_one - num_two)
+elif(operator == "*"):
+  print("Multiplication: ", num_one * num_two)
+elif(operator == "/"):
+  print("Division: ", num_one / num_two)
+else:
+    print("Invalid operator entry!")
+  #End
+
+
+
+#Write a program to accept the cost price of a car and display the road tax to be paid according to the following criteria.
+#Cost > 1000000 : 15%
+#Cost 500000 <= 1000000 : 10%
+#Cost <= 500000 : 5%
+
+cost = float(input("Pleaser enter the cost of your vehicle"))
+if(cost > 1000000):
+  print("You have to pay 15% as road tax")
+elif(cost > 500000 and cost <= 1000000):
+  print("You have to pay 10% as road tax")
+elif(cost <= 500000):
+  print("You have to pay 5% as road tax")
+else:
+  print("Invalid input")
+#End

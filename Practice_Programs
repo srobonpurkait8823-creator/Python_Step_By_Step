@@ -1,0 +1,88 @@
+# #Practice Program 1
+# #Write a Python program to take two inputs from user(num1 and mu,2) and perform Addition, Subtraction, Multiplication and Division.
+# num1=float(input("Enter num1"))
+# num2=float(input("Enter num2"))
+# Addition=num1+num2
+# Subtraction=num1-num2
+# Multiplication=num1*num2
+# Division=num1/num2
+# print("Addition= ", Addition)
+# print("Subtraction= ", Subtraction) 
+# print("Multiplication= ", Multiplication)
+# print("Division= ", Division)
+# #End of Practice Program 1
+
+# #Practice Program 2
+# #Write a program to input side of a square from the user and calculate its area and perimeter.
+# side=float(input("Enter the side of the square"))
+# area=side*side
+# print("The area of the square is : ",area)
+# perimeter=4*side
+# print("The perimeter of the square is: ", perimeter)
+
+# #Practice Program 3
+# #Write a program to input two floating point numbers from the user and display their average.
+# a=float(input("Enter the value of a: "))
+# b=float(input("Enter the value of b: "))
+# average=(a+b)/2
+# print("Average is: ",average)
+
+# #Practice Program 4
+# #Write a program to input two integers from the user and print whether the first number is greater than, or equal to the second number. Print False otherwise.
+# num1=int(input("Enter the value of num1: "))
+# num2=int(input("Enter the value of num2: "))
+# if num1>=num2:
+#     print("True")
+# else:
+#     print("False")
+# #End of Practice Program 4
+
+#Practice Program 5
+#Traffic light program: Write a program that takes the color of the traffic light as input from the user and prints whether to "Stop", "Get Ready", or "Go" based on the color input (Red, Yellow, Green).
+
+traffic_light_color = str(input("Enter the color of the traffic light (Red, Yellow, Green): "))
+if(traffic_light_color == "Red"):
+    print("Stop")
+elif(traffic_light_color == "Yellow"):
+        print("Get Ready")
+elif(traffic_light_color == "Green"):
+        print("Go")
+else:
+            print("Invalid color input. Please enter Red, Yellow, or Green.")
+#End of Practice Program 5
+
+
+#Write a program to check if a number entered by the user is Odd or Even
+num = float(input("Enter a number"))
+if((num%2)==0):
+  print("This is a even number")
+else:
+    print("This is a odd number")
+#End of Program
+
+
+
+#Write a program to find greatest of three numbersentered by the user
+num_one = float(input("Enter the first number"))
+num_two = float(input("Enter the second number"))
+num_three = float(input("Enter the third number"))
+
+if(num_one > num_two and num_one > num_three):
+  print("The greatest number is: ", num_one)
+elif(num_two > num_one and num_two > num_three):
+    print("The greatest number is: ", num_two)
+elif(num_three > num_one and num_three > num_two):
+      print("The greatest number is: ", num_three)
+else:
+  print("Invalid entry!")
+  #End of Program
+
+
+
+#Write a program to check if a number is multiple of 7 or not
+num = float(input("Enter the number: "))
+if((num % 7) == 0):
+  print("Yes! The number is a multiple of 7")
+else:
+  print("No! The number is not a multille of 7")
+  #End
